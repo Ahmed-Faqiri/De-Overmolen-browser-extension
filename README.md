@@ -1,1 +1,1 @@
-This is your Chrome extension which replaces a word or phrase with a different word or phrase. 
+Chrome extension made for De Overmolen for their accounting on the website exact
