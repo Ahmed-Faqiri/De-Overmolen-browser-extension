@@ -1,0 +1,18 @@
+{
+"manifest_version": 3,
+    "name": "De Overmolen",
+    "description": "Shows name of seniors instead of the activity",
+    "version": "1.0",
+    "author": "Ahmed Faqiri",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://start.exactonline.be/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
